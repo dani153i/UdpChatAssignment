@@ -1,0 +1,13 @@
+com.dani153i.udpchat.service.client
+com.dani153i.udpchat.service.server
+com.dani153i.udpchat.service.server.clientcleaner
+com.dani153i.udpchat.service.shared.messages
+com.dani153i.udpchat.service.shared.model
+com.dani153i.udpchatexample.app.client
+com.dani153i.udpchatexample.app.server
+com.dani153i.udpchatexample.app.server.logger
+com.dani153i.udpservice.client
+com.dani153i.udpservice.server
+com.dani153i.udpservice.shared
+com.dani153i.udpservice.shared.connection
+com.dani153i.udpservice.shared.message
