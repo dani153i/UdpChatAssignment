@@ -99,7 +99,7 @@ public class ServerApp implements IChatListener
     @Override
     public void onError(InetAddress address, int port, Error error, String data) {
         String message = "(" + error.errorCode + ") " + error.label + " - " + address + ":" + port + " request: " + data;
-        System.out.println();
+        System.out.println(message);
 
         // log
         try {
