@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00275e18-3600-4f56-8f28-4c21cb63b09d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/udpchatexample/app/server/ServerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/udpchatexample/app/server/ServerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/udpchatexample/app/client/ClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/udpchatexample/app/client/ClientApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/udpchatexample/app/client/ClientApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="229">
+              <caret line="176" column="13" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,10 +53,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UdpChatServer_fre. sep. 27, 2019.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/udpchatexample/app/server/ServerApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+            <state relative-caret-position="183">
+              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,6 +117,7 @@
       <find>join</find>
       <find>onJ</find>
       <find>onJoin</find>
+      <find>help</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -166,8 +174,8 @@
         <option value="$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/logger/Logger.java" />
         <option value="$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/udpchat/service/shared/messages/Error.java" />
         <option value="$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/udpchat/service/server/UdpChatService.java" />
-        <option value="$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/udpchatexample/app/client/ClientApp.java" />
         <option value="$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/udpchatexample/app/server/ServerApp.java" />
+        <option value="$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/udpchatexample/app/client/ClientApp.java" />
       </list>
     </option>
   </component>
@@ -252,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ServerApp">
+  <component name="RunManager" selected="Application.ClientApp2">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.client.Client" />
       <module name="com.dani153i.udpchat" />
@@ -320,9 +328,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ServerApp" />
         <item itemvalue="Application.ClientApp2" />
         <item itemvalue="Application.ClientApp" />
+        <item itemvalue="Application.ServerApp" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Server" />
       </list>
@@ -343,7 +351,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -354,7 +361,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3261105" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3261105" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -569,23 +576,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/udpchatexample/app/client/ClientApp.java">
+    <entry file="file://$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/udpchatexample/app/server/ServerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="183">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/udpchatexample/app/server/ServerApp.java">
+    <entry file="file://$PROJECT_DIR$/com.dani153i.udpchat/src/com/dani153i/udpchatexample/app/client/ClientApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="101" column="34" selection-start-line="101" selection-start-column="34" selection-end-line="101" selection-end-column="34" />
+        <state relative-caret-position="229">
+          <caret line="176" column="13" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UdpChatServer_fre. sep. 27, 2019.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

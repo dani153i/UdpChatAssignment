@@ -71,7 +71,6 @@ public class ClientApp implements IChatListener
         connected = false;
         connecting = false;
 
-        System.out.println("Type 'help' to display commands.");
         mainLoop();
     }
 
@@ -180,6 +179,7 @@ public class ClientApp implements IChatListener
     @Override
     public void onJoined(String username) {
         System.out.println("You joined the chat as " + username + ".");
+        System.out.println("Type 'help' to display commands.");
         setConnected(true);
         setConnecting(false);
     }
